@@ -1,0 +1,66 @@
+.CategoriesItems .card {
+	margin-bottom: 20px;
+}
+
+.CategoriesItems a, .CategoriesItems a:hover {
+	text-decoration: none;
+}
+
+.CategoriesItems .linkIcon {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	padding: 0.25em;
+	background-color: #fff;
+	border-radius: 50%;
+	border: 1px solid #0081a1;
+	transition: all 0.5s;
+}
+
+.CategoriesItems .card:hover .linkIcon {
+	background-color: #0081a1;
+	border: 1px solid #0081a1;
+}
+
+.CategoriesItems .card svg {
+	font-size: 1.8em;
+	color: #0081a1;
+}
+
+.CategoriesItems .card:hover svg {
+	color: #fff;
+}
+
+.CategoriesItems .card-body {
+	height: 100%;
+}
+
+.CategoriesItems img {
+	width: 100%;
+	min-height: 150px;
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: center center !important;
+}
+
+.CategoriesItems .card .card-title.h5 {
+	width: inherit;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: solid 1px #dbdbdb;
+	color: #212529;
+	text-decoration: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.CategoriesItems .card p {
+	overflow-y: auto;
+  overflow: hidden;
+	font-size: 1em;
+}
+
+.CategoriesItems .card b {
+	color: #000
+}

@@ -1,0 +1,27 @@
+.InfoImage {
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+.InfoImage h1, .InfoImage p {
+	width: -webkit-calc(100% - 200px);
+	width:    -moz-calc(100% - 200px);
+	width:         calc(100% - 200px);
+	float: left;
+}
+
+.InfoImage p {
+	padding-right: 20px;
+}
+
+.InfoImage img {
+	width: 200px;
+	border-radius: 5px;
+}
+
+@media (max-width: 991px) {
+	.InfoImage h1, .InfoImage p {
+		width: 100%;
+		padding-right: 0;
+	}
+}

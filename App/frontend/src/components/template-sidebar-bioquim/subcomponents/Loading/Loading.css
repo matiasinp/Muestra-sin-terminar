@@ -1,0 +1,19 @@
+.Loading {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  min-width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: #0e94b5;
+}
+
+.spinner {
+  position: absolute;
+  top: -webkit-calc(50% - 14px);
+	top:    -moz-calc(50% - 14px);
+	top:         calc(50% - 14px);
+  right: -webkit-calc(50% - 14px);
+  right:    -moz-calc(50% - 14px);
+  right:         calc(50% - 14px);
+}

@@ -1,0 +1,63 @@
+.Sidebar .sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    height: 100vh;
+    z-index: 99;
+    background: #0e94b5;
+    color: #fff;
+    transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+    transform-origin: center left;
+    overflow-y: scroll;
+    overflow: hidden;
+}
+
+.Sidebar .sidebar.active {
+    margin-left: -250px;
+    transform: rotateY(100deg);
+}
+
+.Sidebar .sidebarOverlay {
+	min-width: 250px;
+  max-width: 250px;
+  min-height: 100vh;
+  height: 100vh;
+  transition: all 0.6s cubic-bezier(0.945, 0.020, 0.270, 0.665);
+  transform-origin: bottom left;
+}
+
+.Sidebar .sidebarOverlay.active {
+    margin-left: -250px;
+    transform: rotateY(100deg);
+}
+
+.Sidebar .sidebar .sidebar-header {
+    padding: 20px;
+    background: #0081a1;
+}
+
+.Sidebar .sidebar .list-group.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #0081a1;
+}
+
+.Sidebar .sidebar .list-group p {
+    color: #fff;
+    padding: 10px;
+}
+
+.Sidebar .container p {
+	color: #fff;
+	font-size: 0.9em;
+	margin: 5px 0;
+  display: inline-block;
+}
+
+.Sidebar .container svg {
+  color: #fff;
+  font-size: 1.1em;
+  margin-right: 5px;
+}

@@ -1,0 +1,43 @@
+.SidebarItems .list-group-item {
+    padding: 0;
+    border: none;
+    background-color: inherit;
+}
+
+.SidebarItems .list-group-item a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}
+
+.SidebarItems .list-group-item a:hover {
+    color: #0e94b5;
+    background: #fff;
+    cursor: default;
+}
+
+.SidebarItems .list-group-item.active > a, a[aria-expanded="true"] {
+    color: #fff;
+    background: #0081a1;
+}
+
+
+.SidebarItems a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.SidebarItems .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.SidebarItems .list-group a {
+    font-size: 0.9em;
+    padding-left: 30px;
+    background: #0081a1;
+}

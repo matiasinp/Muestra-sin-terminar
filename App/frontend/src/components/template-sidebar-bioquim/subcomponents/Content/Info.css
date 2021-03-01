@@ -1,0 +1,11 @@
+.Info {
+	margin-top: 20px;
+}
+
+.Info h1, .Info p {
+	width: 100%;
+}
+
+.Info p {
+	padding-right: 20px;
+}

@@ -1,0 +1,9 @@
+.Admin {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  width: 70%;
+  height: calc(100vh - 40px);
+  background-color: white;
+}

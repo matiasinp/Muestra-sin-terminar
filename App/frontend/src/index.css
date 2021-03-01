@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Bambino;
+  src: url('fonts/Bambino.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: Bambino Thin;
+  src: url('fonts/Bambino Thin.ttf') format('truetype');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Bambino', sans-serif !important;
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+p {
+  font-family: 'Bambino', sans-serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #999;
+}
+
+a, a:hover, a:focus {
+  transition: all 0.3s;
+  font-family: 'Bambino', sans-serif;
+}
